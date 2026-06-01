@@ -9,7 +9,7 @@ body {
   color: #f3f4f6;
 }
 
-@layer utilites {
+@layer utilities {
   @keyframes blink {
     0%, 100%{
       opacity: 1;
