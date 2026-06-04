@@ -1,8 +1,11 @@
+
+
 export const About = () =>{
 
     const frontSkills = ["HTML", "CSS", "JavaScript", "React", "Node.js", "TypeScript", "TailwindCSS" ];
     return (
-        <section id="about" className="min-h-screen flex items-center justify-centerpy-20">
+        <section id="about" className="min-h-screen flex items-center justify-center py-20">
+
 <div className="max-w-3xl mx-auto px-4">
     <h2 className="text-3xl font-bold bb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text
     text-transparent text-center">About Me
@@ -55,7 +58,6 @@ export const About = () =>{
         </div>
     </div>
 </div>
-
         </section>
     )
 }
