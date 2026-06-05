@@ -7,6 +7,7 @@ import {MobileMenu} from "./components/sections/MobileMenu.jsx";
 import {Home} from "./components/sections/Home.jsx";
 import {About} from "./components/sections/About.jsx";
 import {Projects} from "./components/sections/Projects.jsx";
+import {Contact} from "./components/sections/Contact.jsx";
 
 
 
@@ -23,6 +24,7 @@ const [isLoading, setIsLoading] = useState(false)
     <Home/>
     <About/>
     <Projects/>
+    <Contact/>
 
 </div>
     </>
